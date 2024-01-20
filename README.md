@@ -8,10 +8,12 @@
 - [C#3] Anonymous types
 - [[C#7] Discards](CSharp7/Discards.md)
 - [[C#7] Expression-bodied members](CSharp7/ExpressionBodiedMembers.md)
-- [C#9] Records / [C#10] Record structs
-- [C#10] File-scoped namespace declaration
-- [C#10] Implicit using directive
-- [C#11] Required members and [C#9] Init setter
+- [[C#9] Records](CSharp9/Records.md)
+- [[C#9] Init setter](CSharp9/InitSetter.md)
+- [[C#10] Record structs](CSharp10/RecordStructs.md)
+- [[C#10] File-scoped namespace declaration](CSharp10/FileScopedNamespace.md)
+- [[C#10] Implicit using directive](CSharp10/ImplicitUsingDirective.md)
+- [C#11] Required members
 - [C#12] Collection expressions
 - [C#12] Primary constructors
 - [.NET 8] System.Random.GetItems
