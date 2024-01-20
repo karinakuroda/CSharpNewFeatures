@@ -13,9 +13,9 @@
 - [[C#10] Record structs](CSharp10/RecordStructs.md)
 - [[C#10] File-scoped namespace declaration](CSharp10/FileScopedNamespace.md)
 - [[C#10] Implicit using directive](CSharp10/ImplicitUsingDirective.md)
-- [C#11] Required members
-- [C#12] Collection expressions
-- [C#12] Primary constructors
+- [[C#11] Required members](CSharp11/Required.md)
+- [[C#12] Collection expressions](CSharp12/CollectionExpressions.md)
+- [[C#12] Primary constructors](CSharp12/PrimaryConstructors.md)
 - [.NET 8] System.Random.GetItems
 
 ## Links and references
