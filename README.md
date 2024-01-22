@@ -1,13 +1,14 @@
-# CSharp new features
-## _A guide reference to the new features_
+# C# and .NET new features
+## _A quick guide reference to new features_
 
-✨ This guide was created to help introduce new csharp and .net features so you can find ways adopt easily 
+✨ This guide was created to help introduce new C# and .NET features so you can find ways adopt easily 
 
 ## Features
 
 - [C#3] Anonymous types
 - [[C#7] Discards](CSharp7/Discards.md)
 - [[C#7] Expression-bodied members](CSharp7/ExpressionBodiedMembers.md)
+- [[C# 7] ValueTask](CSharp7/ValueTask.md)
 - [[C#9] Records](CSharp9/Records.md)
 - [[C#9] Init setter](CSharp9/InitSetter.md)
 - [[C#10] Record structs](CSharp10/RecordStructs.md)
