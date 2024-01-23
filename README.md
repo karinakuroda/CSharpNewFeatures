@@ -5,19 +5,22 @@
 
 ## Features
 
-- [C#3] Anonymous types
+- [[C#3] Anonymous types](CSharp3/AnonymousTypes.md)
 - [[C#7] Discards](CSharp7/Discards.md)
 - [[C#7] Expression-bodied members](CSharp7/ExpressionBodiedMembers.md)
-- [[C# 7] ValueTask](CSharp7/ValueTask.md)
+- [[C#7] ValueTask](CSharp7/ValueTask.md)
 - [[C#9] Records](CSharp9/Records.md)
 - [[C#9] Init setter](CSharp9/InitSetter.md)
 - [[C#10] Record structs](CSharp10/RecordStructs.md)
 - [[C#10] File-scoped namespace declaration](CSharp10/FileScopedNamespace.md)
 - [[C#10] Implicit using directive](CSharp10/ImplicitUsingDirective.md)
 - [[C#11] Required members](CSharp11/Required.md)
+- [[C#11] Raw String Literals](CSharp11/RawStringLiterals.md)
 - [[C#12] Collection expressions](CSharp12/CollectionExpressions.md)
 - [[C#12] Primary constructors](CSharp12/PrimaryConstructors.md)
-- [.NET 8] System.Random.GetItems
+- [[.NET8] System.Random.GetItems](DotNet8/SystemRandom.md)
+- [[.NET8] .NET Aspire](DotNet8/Aspire.md)
+- [.NET8] Keyed DI services
 
 ## Links and references
 

@@ -13,6 +13,24 @@
 
 >Task and Task<TResult> are easier to use correctly than are ValueTask and ValueTask<TResult>, 
 and so unless the performance implications outweigh the usability implications, Task / Task<TResult>are still preferred.
-
+From:
+```csharp
+public async Task<bool> AnyWithTheSameNameAsync(string name)
+{
+    return await this.Context.Set<Customer>()
+                             .AsQueryable()
+                             .AnyAsync(cust => EF.Functions.Like(cust.Name, name));
+}
+```
+To:
+```csharp
+public async ValueTask<bool> AnyWithTheSameNameAsync(string name)
+{
+    return await this.Context.Set<Customer>()
+                             .AsQueryable()
+                             .AnyAsync(cust => EF.Functions.Like(cust.Name, name));
+}
+```
 ### Reference:
+https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new
 https://devblogs.microsoft.com/dotnet/understanding-the-whys-whats-and-whens-of-valuetask/
