@@ -11,6 +11,49 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTaskBenchmark", "Value
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawStringLiterals", "RawStringLiterals\RawStringLiterals.csproj", "{D0DF2824-C324-4D11-8DA9-52E427CA5133}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp3", "CSharp3", "{01B46292-CFED-4A37-8B7B-0BE780265B88}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\CSharp3\AnonymousTypes.md = Docs\CSharp3\AnonymousTypes.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp7", "CSharp7", "{BD824603-9CEA-456C-B4B2-D144C859641F}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\CSharp7\Discards.md = Docs\CSharp7\Discards.md
+		Docs\CSharp7\ValueTask.md = Docs\CSharp7\ValueTask.md
+		Docs\CSharp7\ExpressionBodiedMembers.md = Docs\CSharp7\ExpressionBodiedMembers.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp9", "CSharp9", "{8D01AA0B-D9F7-4E16-95D2-26F569B78D77}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\CSharp9\Records.md = Docs\CSharp9\Records.md
+		Docs\CSharp9\InitSetter.md = Docs\CSharp9\InitSetter.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp10", "CSharp10", "{2CAFBA73-A2A1-435C-B682-7659FACDA212}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\CSharp10\RecordStructs.md = Docs\CSharp10\RecordStructs.md
+		Docs\CSharp10\FileScopedNamespace.md = Docs\CSharp10\FileScopedNamespace.md
+		Docs\CSharp10\ImplicitUsingDirective.md = Docs\CSharp10\ImplicitUsingDirective.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp11", "CSharp11", "{48D42D0C-0B9A-4B7B-A4AC-D3F972D67540}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\CSharp11\Required.md = Docs\CSharp11\Required.md
+		Docs\CSharp11\RawStringLiterals.md = Docs\CSharp11\RawStringLiterals.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp12", "CSharp12", "{F83101F2-E751-4936-9DEA-8F130F6779F0}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\CSharp12\PrimaryConstructors.md = Docs\CSharp12\PrimaryConstructors.md
+		Docs\CSharp12\CollectionExpressions.md = Docs\CSharp12\CollectionExpressions.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNet8", "DotNet8", "{4903D7AF-450D-4150-8D86-DA6B08E4C4D6}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\DotNet8\Aspire.md = Docs\DotNet8\Aspire.md
+		Docs\DotNet8\SystemRandom.md = Docs\DotNet8\SystemRandom.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,5 +72,14 @@ Global
 		{D0DF2824-C324-4D11-8DA9-52E427CA5133}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0DF2824-C324-4D11-8DA9-52E427CA5133}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0DF2824-C324-4D11-8DA9-52E427CA5133}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01B46292-CFED-4A37-8B7B-0BE780265B88} = {CE487A4B-D87E-48C7-BC3C-DE063E40973C}
+		{BD824603-9CEA-456C-B4B2-D144C859641F} = {CE487A4B-D87E-48C7-BC3C-DE063E40973C}
+		{8D01AA0B-D9F7-4E16-95D2-26F569B78D77} = {CE487A4B-D87E-48C7-BC3C-DE063E40973C}
+		{2CAFBA73-A2A1-435C-B682-7659FACDA212} = {CE487A4B-D87E-48C7-BC3C-DE063E40973C}
+		{48D42D0C-0B9A-4B7B-A4AC-D3F972D67540} = {CE487A4B-D87E-48C7-BC3C-DE063E40973C}
+		{F83101F2-E751-4936-9DEA-8F130F6779F0} = {CE487A4B-D87E-48C7-BC3C-DE063E40973C}
+		{4903D7AF-450D-4150-8D86-DA6B08E4C4D6} = {CE487A4B-D87E-48C7-BC3C-DE063E40973C}
 	EndGlobalSection
 EndGlobal
