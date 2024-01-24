@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpNewFeatures", "CSharpNewFeatures\CSharpNewFeatures.csproj", "{74EA7C37-E85E-4916-85BC-303DAE90AA2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{CE487A4B-D87E-48C7-BC3C-DE063E40973C}"
+	ProjectSection(SolutionItems) = preProject
+		..\Docs\.DS_Store = ..\Docs\.DS_Store
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74EA7C37-E85E-4916-85BC-303DAE90AA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74EA7C37-E85E-4916-85BC-303DAE90AA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74EA7C37-E85E-4916-85BC-303DAE90AA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74EA7C37-E85E-4916-85BC-303DAE90AA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
