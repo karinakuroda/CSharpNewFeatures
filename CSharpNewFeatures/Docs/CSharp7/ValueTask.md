@@ -7,12 +7,12 @@
 
 >You should only await a ValueTask once, and only directly after obtaining it from the source method.
   
->Should every new asynchronous API return ValueTask / ValueTask <TResult>?
+>Should every new asynchronous API return ValueTask / ValueTask &lt;TResult&gt; ?
 
->In short, no: the default choice is still Task / Task<TResult>.
+>In short, no: the default choice is still Task / Task&lt;TResult&gt; .
 
->Task and Task<TResult> are easier to use correctly than are ValueTask and ValueTask<TResult>, 
-and so unless the performance implications outweigh the usability implications, Task / Task<TResult>are still preferred.
+>Task and Task&lt;TResult&gt;  are easier to use correctly than are ValueTask and ValueTask&lt;TResult&gt; , 
+and so unless the performance implications outweigh the usability implications, Task / Task&lt;TResult&gt; are still preferred.
 
 From:
 ```csharp
