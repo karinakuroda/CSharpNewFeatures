@@ -5,7 +5,7 @@
 You use the record modifier to define a reference type that provides built-in functionality for encapsulating data. C# 10 allows the record class syntax as a synonym to clarify a reference type, and record struct to define a value type with similar functionality.
 
 The record type is useful whenever we are dealing with a value object:
-From
+
 
 From:
 ```csharp

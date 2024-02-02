@@ -21,6 +21,7 @@
 - [[.NET8] System.Random.GetItems](CSharpNewFeatures/Docs/DotNet8/SystemRandom.md)
 - [[.NET8] .NET Aspire](CSharpNewFeatures/Docs/DotNet8/Aspire.md)
 - [.NET8] Keyed DI services
+- ICollection vs IList vs IEnumerable
 
 ## Links and references
 

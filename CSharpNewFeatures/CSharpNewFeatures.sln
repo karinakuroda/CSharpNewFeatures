@@ -56,6 +56,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNet8", "DotNet8", "{4903
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAssertionBenchmark", "FluentAssertionBenchmark\FluentAssertionBenchmark.csproj", "{B0C17E82-2636-4410-A9E2-C89A14DDC99B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsComparison", "CollectionsComparison\CollectionsComparison.csproj", "{3C5B1819-C15E-4622-9D48-B74462660808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerable", "IEnumerable\IEnumerable.csproj", "{0836A032-A5A4-400A-B5A7-EB6C5B8AFE3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,6 +82,14 @@ Global
 		{B0C17E82-2636-4410-A9E2-C89A14DDC99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0C17E82-2636-4410-A9E2-C89A14DDC99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0C17E82-2636-4410-A9E2-C89A14DDC99B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5B1819-C15E-4622-9D48-B74462660808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5B1819-C15E-4622-9D48-B74462660808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5B1819-C15E-4622-9D48-B74462660808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5B1819-C15E-4622-9D48-B74462660808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0836A032-A5A4-400A-B5A7-EB6C5B8AFE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0836A032-A5A4-400A-B5A7-EB6C5B8AFE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0836A032-A5A4-400A-B5A7-EB6C5B8AFE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0836A032-A5A4-400A-B5A7-EB6C5B8AFE3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{01B46292-CFED-4A37-8B7B-0BE780265B88} = {CE487A4B-D87E-48C7-BC3C-DE063E40973C}
