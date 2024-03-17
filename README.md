@@ -22,6 +22,7 @@
 - [[.NET8] .NET Aspire](CSharpNewFeatures/Docs/DotNet8/Aspire.md)
 - [.NET8] Keyed DI services
 - ICollection vs IList vs IEnumerable
+- [Declaration and Type Patterns](CSharpNewFeatures/Docs/Others/Others.md)
 
 ## Links and references
 
