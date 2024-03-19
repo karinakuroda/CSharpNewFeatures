@@ -3,14 +3,15 @@ public record House
 {
     public IEnumerable<Member> GetMembers()
     {
-        //Console.WriteLine("Called GetMembers()"); //Will be called just in the first time!
-        var fileRead = File.ReadAllLines("./Members.csv");
-        return fileRead.Select(s =>
-        {
+        Console.WriteLine("Called ReadFile()");
+        var fileRead = File.ReadAllLines("./Members.dat");
+        // return fileRead.Select(s =>
+        // {
             // Console.WriteLine("Called GetMembers select"); //Will be called every time 
-            var line = s.Split(",");
-            return new Member(line[0], line[1]);
-        });
+            // var line = s.Split(",");
+            // return new Member(line[0], line[1]);
+        // });
+        return null;
     }
     
     public IEnumerable<Member> GetMembersYieldReturn()
