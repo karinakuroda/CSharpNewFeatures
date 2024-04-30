@@ -20,6 +20,22 @@ if (value is {})
 }
 ```
 
+The following examples are similar:
+
+```csharp
+string? line;
+while ((line = streamReader.ReadLine())!=null)
+{
+    yield return line.Split(' ');
+}
+```
+```csharp
+while (streamReader.ReadLine() is { } line)
+{
+    yield return line.Split(' ');
+}
+```
+
 - ### References:
 - [Microsoft learn](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns#declaration-and-type-patterns)
 - https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/is
