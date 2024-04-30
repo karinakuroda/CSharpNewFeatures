@@ -8,10 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Update="Members.csv">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="Members.dat">
+      <None Update="ReadFile\socker.dat">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>
